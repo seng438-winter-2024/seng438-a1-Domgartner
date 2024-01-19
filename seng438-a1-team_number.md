@@ -5,9 +5,9 @@
 | Group: Group Number      |
 |-----------------|
 | Noel Thomas            |   
-| Student 2 name              |   
-| Student 3 name               |   
-| Student 4 name                |   
+| Dominic Gartner              |   
+| Alex Mclean               |   
+| Hamd Khan                |   
 
 
 **Table of Contents**
