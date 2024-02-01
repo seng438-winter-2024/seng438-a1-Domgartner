@@ -4,10 +4,10 @@
 
 | Group: Group Number      |
 |-----------------|
-| Noel Thomas            |   
+| Alexander Mclean                |   
 | Dominic Gartner              |   
-| Alex Mclean               |   
-| Hamd Khan                |   
+| Hamd Khan               |   
+| Noel Thomas                |   
 
 
 **Table of Contents**
@@ -33,12 +33,25 @@ learned	1](#_Toc439194682)
 
 # Introduction
 
-An introduction of your lab work, and what you knew about exploratory and manual
-functional testing before this lab
+#### An introduction of your lab work, and what you knew about exploratory and manual functional testing before this lab:
+
+- Our understanding of exploratory testing is that it is an unscripted testing approach, where testers explore the application, and execute tests based on their observations. This type of testing is often used to uncover defects that might not be identified through a scripted testing approach such as input validation, buffer overflows, and unresolvable actions (such as attempting to withdraw a value that is not a multiple of 20). Testers rely on their experience, intuition, and creativity to find bugs and issues during exploratory testing.
+- On the other hand, our understanding of manual functional testing is the idea that a tester follows test cases (test suite). Which ensures that the software or application functions as intended. 
 
 # High-level description of the exploratory testing plan
 
-Text…
+- In the exploratory testing phase, the approach is to explore common failures in programs. We also will explore the explicit requirements defined in the High Level Requirements (Appendix B). This includes:
+    - Customers must enter a Personal Identification Number (PIN) for validation.
+    - Allow withdrawals in multiples of $20.00 from linked accounts.
+    - Allow customers to enter the deposit amount for bank verification.
+    - Send a message to the bank once the envelope is deposited.
+    - Provide balance information for any account linked to the card.
+    - Allow customers to cancel a transaction in progress.
+    - Handle transaction completion as per bank's approval.
+    - Provide printed receipts for each successful transaction.
+    - Include a key-operated switch for starting and stopping customer service.
+    - Ensure the machine can only be turned off when not servicing a customer.
+    - Maintain an internal transaction log.
 
 # Comparison of exploratory and manual functional testing
 
